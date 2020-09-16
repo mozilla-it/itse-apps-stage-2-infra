@@ -1,2 +1,1 @@
-# itse-infra-template
-Template repo
+# itse-apps-stage-2-infra
