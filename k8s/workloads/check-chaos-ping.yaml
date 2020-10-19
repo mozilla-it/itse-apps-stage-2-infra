@@ -16,11 +16,3 @@ spec:
   max_attempts: 2
   image: afrank/pinger
   check_url: http://chaos.0af.org:5001
-  escalations:
-  - type: slack
-    env_args:
-      webhook_url: "SLACK_DEFAULT_WEBHOOK_URL"
-      channel: "SLACK_DEFAULT_CHANNEL"
-  - type: email
-    args:
-      email: adam@antilogo.org
